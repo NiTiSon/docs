@@ -37,8 +37,9 @@
     ],
     "output": "_site",
     "template": [
-      "default",
-      "templates/singulinkfx"
+        "default",
+        "modern",
+        "templates/material"
     ],
     "globalMetadata": {
       "_appName": "NiTiSon::docs",
