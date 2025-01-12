@@ -2,6 +2,3 @@
 	path = src/MutableString
 	url = https://github.com/NiTiSon/MutableString
 	branch = stable
-[submodule "templates/SingulinkFX"]
-	path = templates/SingulinkFX
-	url = https://github.com/Singulink/SingulinkFX
