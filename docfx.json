@@ -1,0 +1,56 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "src",
+          "files": [
+            "**/*.csproj"
+          ],
+          "exclude": [
+            "**/*.Tests.csproj",
+            "**/*.Benchmark.csproj"
+          ]
+        }
+      ],
+      "dest": "api"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template": [
+      "default",
+      "templates/singulinkfx"
+    ],
+    "globalMetadata": {
+      "_appName": "NiTiSon::docs",
+      "_appTitle": "NiTiSon::docs",
+      "_copyrightFooter": "Copyright (c) 2025 NiTiSon",
+      "_enableSearch": true,
+      "pdf": false
+    },
+    "sitemap": {
+      "baseUrl": "https://NiTiSon.github.io/docs",
+      "priority": 0.5,
+      "changefreq": "weekly"
+    }
+  }
+}
