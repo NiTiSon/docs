@@ -25,7 +25,7 @@ jobs:
       uses: actions/checkout@v3
 
     - name: Submodule update
-      run: git submodule update --init --recursive
+      run: git submodule update --init --recursive -- src
 
     - name: Dotnet Setup
       uses: actions/setup-dotnet@v3
