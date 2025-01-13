@@ -40,7 +40,7 @@
     "template": [
         "default",
         "modern",
-        "templates/material"
+        "templates/singulinkfx"
     ],
     "globalMetadata": {
       "_appName": "NiTiSon::docs",
